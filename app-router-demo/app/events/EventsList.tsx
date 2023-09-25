@@ -1,4 +1,4 @@
-import { getEvents } from '@/utils/Events';
+import { getEvents } from '../utils/Events';
 import Link from 'next/link';
 import React from 'react';
 
