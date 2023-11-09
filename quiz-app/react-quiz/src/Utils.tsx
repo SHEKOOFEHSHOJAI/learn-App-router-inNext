@@ -1,7 +1,1 @@
-import React from 'react'
-
-export default function Utils() {
-  return (
-    <div>Utils</div>
-  )
-}
+export const shuffleArray=(array:any[])=>[...array].sort(()=>Math.random()-0.5)
