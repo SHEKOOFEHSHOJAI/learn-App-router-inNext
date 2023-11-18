@@ -84,8 +84,8 @@ function App() {
         {!loading && !gameOver && (
 
           <QuestionCard
-            questionNr={number + 1}
             totalQuestion={TOTAL_QUESTIONS}
+            questionNr={number + 1}
             question={questions[number].question}
             answers={questions[number].answers}
             userAnswer={userAnswer ? userAnswer[number] : undefined}
@@ -102,7 +102,6 @@ function App() {
       </>
       )
 }
-
 
 
       export default App;
